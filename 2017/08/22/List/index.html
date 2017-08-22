@@ -94,16 +94,16 @@
 
 
 
-<meta name="description" content="帆帆帆的官方网站">
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta name="description" content="（一） List下的一些常用方法：add（int index,Object obj）————向集合指定索引位置添加对象，其他对象的索引位置相对后移一位，索引位置从0开始。addAll (int,Collection coll)   ————向集合指定索引位置添加指定集合中的所有对象。remove (int index)              ————移除集合中指定索引位置的对象。set (in">
+<meta property="og:type" content="article">
+<meta property="og:title" content="List">
+<meta property="og:url" content="http://yoursite.com/2017/08/22/List/index.html">
 <meta property="og:site_name" content="Florentino">
-<meta property="og:description" content="帆帆帆的官方网站">
-<meta property="og:updated_time" content="2017-08-22T02:56:48.000Z">
+<meta property="og:description" content="（一） List下的一些常用方法：add（int index,Object obj）————向集合指定索引位置添加对象，其他对象的索引位置相对后移一位，索引位置从0开始。addAll (int,Collection coll)   ————向集合指定索引位置添加指定集合中的所有对象。remove (int index)              ————移除集合中指定索引位置的对象。set (in">
+<meta property="og:updated_time" content="2017-08-22T06:52:18.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
-<meta name="twitter:description" content="帆帆帆的官方网站">
+<meta name="twitter:title" content="List">
+<meta name="twitter:description" content="（一） List下的一些常用方法：add（int index,Object obj）————向集合指定索引位置添加对象，其他对象的索引位置相对后移一位，索引位置从0开始。addAll (int,Collection coll)   ————向集合指定索引位置添加指定集合中的所有对象。remove (int index)              ————移除集合中指定索引位置的对象。set (in">
 
 
 
@@ -133,13 +133,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/08/22/List/"/>
 
 
 
 
 
-  <title>tags | Florentino</title>
+  <title>List | Florentino</title>
   
 
 
@@ -224,40 +224,139 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/22/List/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="帆帆帆">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Florentino">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">tags</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-                No tags
-            </div>
-            <div class="tag-cloud-tags">
+          <h1 class="post-title" itemprop="name headline">List</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
               
-            </div>
-          </div>
-        
-      </div>
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-08-22T14:51:45+08:00">
+                2017-08-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p>（一） List下的一些常用方法：<br>add（int index,Object obj）————向集合指定索引位置添加对象，其他对象的索引位置相对后移一位，索引位置从0开始。<br>addAll (int,Collection coll)   ————向集合指定索引位置添加指定集合中的所有对象。<br>remove (int index)              ————移除集合中指定索引位置的对象。<br>set (index,Object obj)         ————将集合中指定索引位置的对象替换成指定的对象。<br>get (int index )                   ————-得到集合中指定索引位置的对象。<br>indexOf (Object obj)           ————获得集合中指定对象的索引位置，存在多个时返回第一个，不存在返回-1。<br>lastIndexOf (Object obj)     ————获得集合中指定对象的索引位置，存在多个时返回最后一个，不存在返回-1。<br>listIterator ()                        ————获得一个包含所有对象的ListIterator实例。<br>listIterator (int index)          ————-获得一个包含从指定索引位置到最后的ListIterator实例。<br>subList (int formIndex,int toIndex )—截取从开始索引formIndex到结束索引toIndex的对象，重新生成一个List集合并返回。<br>（二）实现类：<br>List接口的常用实现类有ArrayLIst和LinkedList：<br>ArrayList:底层数据结构使用的是数组（数组长度是可变的百分之五十增加），查询快，增加和删除慢，线程不同步。<br>LinkedList：底层数据结构使用的是链表，查询较慢但是增加和删除快。<br>List <string> hanliu =new ArrayList<string>();//使用ArrayList实例化<br>List <string> daliu = new LinkedList<string>();//使用LinkedList实例化<br>（三）一些使用例子：<br>增加，删除，查询和修改：<br>import java.util.ArrayList;<br>import java.util.LinkedList;<br>import java.util.Iterator;<br>import java.util.List;</string></string></string></string></p>
+<p>public class LinkedListDemo {<br>    public static void main (String [] args){<br>        String h=”H”, a=”A”, n=”N”, l=”L”, i=”I”, u=”U”;<br>        List<string> list = new LinkedList<string>();<br>        list.add(h);<br>        list.add(n);<br>        list.add(1,u);<br>        list.set(1,a);<br>        Iterator<string> it = list.iterator();<br>        while (it.hasNext()) {<br>            System.out.print(it.next());<br>        }<br>        System.out.print(“ “);<br>        List<string> list2 =new ArrayList<string>();<br>        list2.add(l);<br>        list2.add(i);<br>        list2.add(i);<br>        list2.add(u);<br>        list2.remove(2);//删除了第二个i；<br>        for (int j=0;j&lt;list.size();j++){<br>            System.out.print(list2.get(j));//利用get（int index）方法插叙<br>        }<br>    }<br>}</string></string></string></string></string></p>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/08/22/mendax/" rel="next" title="mendax">
+                <i class="fa fa-chevron-left"></i> mendax
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -266,6 +365,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -447,10 +550,10 @@
   
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
